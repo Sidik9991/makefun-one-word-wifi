@@ -55,6 +55,21 @@ const CANDIDATES: Candidate[] = [
     scores: [2, 0, 2, 0, 2],
     note: "Calls drop, games drop; accurate but flat, more complaint than joke.",
   },
+  {
+    word: "OnStrike",
+    scores: [2, 2, 1, 2, 2],
+    note: "The Wi-Fi downed tools and walked out at the worst moment; funny, though real Wi-Fi never announces a strike.",
+  },
+  {
+    word: "AnyDayNow",
+    scores: [1, 1, 1, 1, 2],
+    note: "The page will load any day now; a shrug more than a description of the connection itself.",
+  },
+  {
+    word: "RebootMe",
+    scores: [2, 1, 2, 1, 2],
+    note: "The household liturgy — turn it off and on again; true and wry, but it asks the router, not describes the Wi-Fi.",
+  },
 ];
 
 function total(c: Candidate): number {
